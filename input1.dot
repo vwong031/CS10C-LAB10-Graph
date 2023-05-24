@@ -1,0 +1,31 @@
+digraph G {
+Micky_Mouse[label="Micky_Mouse, 0"];
+Micky_Mouse -> Wille_E_Coyote;
+Wille_E_Coyote[label="Wille_E_Coyote, 1"];
+Wille_E_Coyote -> Micky_Mouse;
+Wille_E_Coyote -> Joe_the_Plumber;
+Joe_the_Plumber[label="Joe_the_Plumber, 2"];
+Joe_the_Plumber -> Parah_Salin;
+Parah_Salin[label="Parah_Salin, 3"];
+Parah_Salin -> Joe_the_Plumber;
+Parah_Salin -> Micky_Mouse;
+Parah_Salin -> Kim_Jong_Il;
+Kim_Jong_Il[label="Kim_Jong_Il, 4"];
+Kim_Jong_Il -> Micky_Mouse;
+Kim_Jong_Il -> Tilla_Tequila;
+Tilla_Tequila[label="Tilla_Tequila, 3"];
+Tilla_Tequila -> Parah_Salin;
+Tilla_Tequila -> Joe_the_Plumber;
+Tilla_Tequila -> Scoobie_Doo;
+Scoobie_Doo[label="Scoobie_Doo, 1"];
+Scoobie_Doo -> Wille_E_Coyote;
+Kim_Jong_Il -> Joe_the_Plumber;
+Parah_Salin -> Hugo_Chavez;
+Hugo_Chavez[label="Hugo_Chavez, 4"];
+Hugo_Chavez -> Parah_Salin;
+Hugo_Chavez -> Micky_Mouse;
+Hugo_Chavez -> Scoobie_Doo;
+Joe_the_Plumber -> Wille_E_Coyote;
+Joe_the_Plumber -> Tilla_Tequila;
+Micky_Mouse -> Scoobie_Doo;
+}
